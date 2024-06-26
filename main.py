@@ -2,8 +2,8 @@
 
 import argparse
 import sys
-import guessnumber
-import r_p_s
+from guessnumber import guess_the_number_game
+from r_p_s import rock_paper_scissors_game
 from snake_game import run_snake_game
 
 parser = argparse.ArgumentParser(
@@ -20,9 +20,9 @@ while True:
     choose = input(f"Hello! {name}, welcome to the \"ARCADE\"🕹️!\nPress 1 to play \"Guess The Number\"\nPress 2 to play \"Rock Paper Scissors\"\nPress 3 to play \"Snake Game\"\nPress 4 to Exit\n")
 
     if choose == '1':
-        guessnumber()
+        guess_the_number_game(name)
     elif choose == '2':
-        r_p_s()
+        rock_paper_scissors_game(name)
     elif choose == '3':
         run_snake_game()
     elif choose == '4':

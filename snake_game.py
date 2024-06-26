@@ -1,4 +1,4 @@
-# snake_game.py
+
 
 import pygame as pg
 from random import randrange

@@ -47,3 +47,6 @@ def rock_paper_scissors_game(name):
                 break
 
     print("Returning to the arcade. Thanks for playing!")
+if __name__ == '__main__':
+    name = input("Enter your name: ")
+    rock_paper_scissors_game(name)

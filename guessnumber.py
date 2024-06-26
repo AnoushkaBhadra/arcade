@@ -29,3 +29,7 @@ def guess_the_number_game(name):
                 break
 
     print("Returning to the arcade. Thanks for playing!")
+
+if __name__ == '__main__':
+    name = input("Enter your name: ")
+    guess_the_number_game()
